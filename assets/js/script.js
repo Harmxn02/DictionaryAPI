@@ -17,8 +17,8 @@ function processForm(e) {
     const url = BASE_URL + `${query}`;
     
     
-    // fetch(url)
-    fetch('https://api.dictionaryapi.dev/api/v2/entries/en/penis')
+    fetch(url)
+    // fetch('https://api.dictionaryapi.dev/api/v2/entries/en/penis')
         .then(res => res.json())
         // .then(data => console.log(data[0].meanings))
         .then(data => {
@@ -49,8 +49,9 @@ function showDetails(data) {
     const HTML = `
                     <p id="phonetics">${PHONETICS}</p>
                     <p id="definition">${DEFINITION}</p>
-                    <p id="synonyms">${SYNONYMS}</p>
-                `;
-    
+                    `;
+                    
+                    // <h2 id="synonyms-span">synonyms:</h2>
+                    // <p id="synonyms">${SYNONYMS}</p>
     $results.insertAdjacentHTML("beforeend", HTML);
 }
