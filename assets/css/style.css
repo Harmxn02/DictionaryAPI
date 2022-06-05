@@ -28,8 +28,8 @@ body {
     align-items: center;
     gap: 2rem;
 
-    width: fit-content;
-    height: fit-content;
+    width: 20rem;
+    /* height: fit-content; */
     border-radius: 1rem;
 }
 
@@ -73,6 +73,8 @@ body {
 
 #definition {
     width: fit-content;
+    max-width: 20rem;
+    text-align: left;
 }
 
 /* #synonyms-span {
