@@ -55,12 +55,12 @@ body {
     border: none;
     border-radius: 0.4rem;
     padding: 0.5rem;
-    transition: all, 0.4s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
 }
 
 #submit-button:hover {
-    color: #fff;
-    background-color: #7489ff;
+    background-color: rgb(220, 220, 220);
+    /* default = RGB(240, 240, 240) */
 }
 
 

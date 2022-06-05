@@ -18,7 +18,7 @@ function processForm(e) {
     
     
     fetch(url)
-    // fetch('https://api.dictionaryapi.dev/api/v2/entries/en/penis')
+    // fetch('https://api.dictionaryapi.dev/api/v2/entries/en/word')
         .then(res => res.json())
         // .then(data => console.log(data[0].meanings))
         .then(data => {
